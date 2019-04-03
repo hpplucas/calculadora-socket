@@ -78,7 +78,7 @@ public class Server {
             while (true) {
                 System.out.println("Aguardando conexão...");
                 Socket socket = server.esperarConexao();
-                System.out.println("Clirnte conectado");
+                System.out.println("Cliente conectado");
                 server.tratarConexao(socket);
                 System.out.println("Cliente desconectado");
             }
